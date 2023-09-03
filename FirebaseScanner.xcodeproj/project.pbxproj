@@ -16,6 +16,7 @@
 		0CF6D08E25FE190300FA610A /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6D08D25FE190300FA610A /* TextPreviewView.swift */; };
 		0CF9EAAE25FE343E00E56E3D /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9EAAD25FE343E00E56E3D /* TextRecognition.swift */; };
 		17A3C3BE2AA54C6700F24BC6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 17A3C3BD2AA54C6700F24BC6 /* FirebaseStorage */; };
+		17B68F892AA54D6700E35D0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17B68F882AA54D6700E35D0C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0CF6D08A25FE0D2300FA610A /* ImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewView.swift; sourceTree = "<group>"; };
 		0CF6D08D25FE190300FA610A /* TextPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreviewView.swift; sourceTree = "<group>"; };
 		0CF9EAAD25FE343E00E56E3D /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		17B68F882AA54D6700E35D0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				0CF6D08D25FE190300FA610A /* TextPreviewView.swift */,
 				0CF9EAAD25FE343E00E56E3D /* TextRecognition.swift */,
 				0CF6D07A25FDFEDD00FA610A /* Assets.xcassets */,
+				17B68F882AA54D6700E35D0C /* GoogleService-Info.plist */,
 				0CF6D07F25FDFEDD00FA610A /* Info.plist */,
 				0CF6D07C25FDFEDD00FA610A /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				0CF6D07E25FDFEDD00FA610A /* Preview Assets.xcassets in Resources */,
 				0CF6D07B25FDFEDD00FA610A /* Assets.xcassets in Resources */,
+				17B68F892AA54D6700E35D0C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
