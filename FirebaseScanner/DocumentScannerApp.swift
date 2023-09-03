@@ -11,13 +11,12 @@ import Firebase
 
 @main
 struct DocumentScannerApp: App {
-    
+    
     init() {
         
         FirebaseApp.configure()
         print("Configured")
-        
-    }
+    } 
     
     var body: some Scene {
         WindowGroup {

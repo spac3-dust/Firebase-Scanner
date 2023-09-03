@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CF6D07325FDFEDC00FA610A /* DocumentScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF6D07325FDFEDC00FA610A /* FirebaseScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF6D07625FDFEDC00FA610A /* DocumentScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerApp.swift; sourceTree = "<group>"; };
 		0CF6D07825FDFEDC00FA610A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CF6D07A25FDFEDD00FA610A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		0CF6D07425FDFEDC00FA610A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CF6D07325FDFEDC00FA610A /* DocumentScanner.app */,
+				0CF6D07325FDFEDC00FA610A /* FirebaseScanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,27 +71,27 @@
 				0CF6D08D25FE190300FA610A /* TextPreviewView.swift */,
 				0CF9EAAD25FE343E00E56E3D /* TextRecognition.swift */,
 				0CF6D07A25FDFEDD00FA610A /* Assets.xcassets */,
-				17B68F882AA54D6700E35D0C /* GoogleService-Info.plist */,
 				0CF6D07F25FDFEDD00FA610A /* Info.plist */,
-				0CF6D07C25FDFEDD00FA610A /* Preview Content */,
+				17B68F882AA54D6700E35D0C /* GoogleService-Info.plist */,
+				0CF6D07C25FDFEDD00FA610A /* Preview_Content */,
 			);
 			path = FirebaseScanner;
 			sourceTree = "<group>";
 		};
-		0CF6D07C25FDFEDD00FA610A /* Preview Content */ = {
+		0CF6D07C25FDFEDD00FA610A /* Preview_Content */ = {
 			isa = PBXGroup;
 			children = (
 				0CF6D07D25FDFEDD00FA610A /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Preview_Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CF6D07225FDFEDC00FA610A /* DocumentScanner */ = {
+		0CF6D07225FDFEDC00FA610A /* FirebaseScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF6D08225FDFEDD00FA610A /* Build configuration list for PBXNativeTarget "DocumentScanner" */;
+			buildConfigurationList = 0CF6D08225FDFEDD00FA610A /* Build configuration list for PBXNativeTarget "FirebaseScanner" */;
 			buildPhases = (
 				0CF6D06F25FDFEDC00FA610A /* Sources */,
 				0CF6D07025FDFEDC00FA610A /* Frameworks */,
@@ -101,12 +101,12 @@
 			);
 			dependencies = (
 			);
-			name = DocumentScanner;
+			name = FirebaseScanner;
 			packageProductDependencies = (
 				17A3C3BD2AA54C6700F24BC6 /* FirebaseStorage */,
 			);
 			productName = DocumentScanner;
-			productReference = 0CF6D07325FDFEDC00FA610A /* DocumentScanner.app */;
+			productReference = 0CF6D07325FDFEDC00FA610A /* FirebaseScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,8 +115,9 @@
 		0CF6D06B25FDFEDC00FA610A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					0CF6D07225FDFEDC00FA610A = {
 						CreatedOnToolsVersion = 12.4;
@@ -139,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CF6D07225FDFEDC00FA610A /* DocumentScanner */,
+				0CF6D07225FDFEDC00FA610A /* FirebaseScanner */,
 			);
 		};
 /* End PBXProject section */
@@ -296,10 +297,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DocumentScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = FirebaseScanner/Preview_Content;
 				DEVELOPMENT_TEAM = 58YJ59FFBY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DocumentScanner/Info.plist;
+				INFOPLIST_FILE = FirebaseScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,10 +319,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"DocumentScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = FirebaseScanner/Preview_Content;
 				DEVELOPMENT_TEAM = 58YJ59FFBY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DocumentScanner/Info.plist;
+				INFOPLIST_FILE = FirebaseScanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF6D08225FDFEDD00FA610A /* Build configuration list for PBXNativeTarget "DocumentScanner" */ = {
+		0CF6D08225FDFEDD00FA610A /* Build configuration list for PBXNativeTarget "FirebaseScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CF6D08325FDFEDD00FA610A /* Debug */,
